@@ -1,0 +1,14 @@
+{
+  "name": "auth_sample",
+  "description": "auth sample",
+  "version": "0.0.0",
+  "dependencies": {
+    "express": ">= 2.5.0 < 2.9.0",
+    "jade": "*"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}

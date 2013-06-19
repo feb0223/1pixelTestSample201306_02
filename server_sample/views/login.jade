@@ -1,0 +1,11 @@
+div#root
+  div.navbar.navbar-top
+    div.navbar-inner(style="position:relative;")
+      h4(style="text-align:center;") ログインページ
+  div#main
+    if invalid
+      div.alert.alert-error アカウントもしくはパスワードが間違っています。
+    form(method="post",action="/login")
+      input#account(name="account",type="text",placeholder="account")
+      input#password(name="password",type="password",placeholder="password")
+      button#login_btn.btn(type="submit") ログイン

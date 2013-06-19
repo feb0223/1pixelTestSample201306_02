@@ -1,0 +1,4 @@
+
+exports.register = function(app) {
+	
+};
